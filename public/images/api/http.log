@@ -1,0 +1,17 @@
+HTTP/1.1 200 OK
+Server: nginx/1.18.0
+Date: Tue, 14 Nov 2023 04:39:47 GMT
+Content-Type: application/json
+Content-Length: 1076
+Connection: keep-alive
+X-Cache: unreachable
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Download-Options: noopen
+Strict-Transport-Security: max-age=5184000
+X-Frame-Options: DENY
+X-Dns-Prefetch-Control: off
+Access-Control-Allow-Methods: GET, POST, PUT, DELETE, PATCH
+Content-Security-Policy: default-src https:
+
+{"ID":8,"CreatedAt":"2023-11-14T11:33:44.994412+07:00","UpdatedAt":"2023-11-14T11:33:45.606749+07:00","DeletedAt":null,"transaction_id":"bf1b402c-48fd-4441-98e3-3d6f9cf3b60b","order_id":"YOUR-ORDER-ID-6057","ref_id":"","user_id":"","name":"Hari S. Hasan","email":"harisandra05@gmail.com","phone":"08117538006","status":"expire","method":"gopay","amount":10000,"fraud":"accept","actions":[{"name":"generate-qr-code","method":"GET","url":"https://api.midtrans.com/v2/gopay/bf1b402c-48fd-4441-98e3-3d6f9cf3b60b/qr-code","fields":null},{"name":"deeplink-redirect","method":"GET","url":"https://gopay.co.id/app/merchanttransfer?tref=A120231114043344YFzPkIOB87ID\u0026amount=10000\u0026activity=GP:RR\u0026callback_url=https%3A%2F%2Fashiil.page.link%2FTG78%3Forder_id%3DYOUR-ORDER-ID-6057","fields":null},{"name":"get-status","method":"GET","url":"https://api.midtrans.com/v2/bf1b402c-48fd-4441-98e3-3d6f9cf3b60b/status","fields":null},{"name":"cancel","method":"POST","url":"https://api.midtrans.com/v2/bf1b402c-48fd-4441-98e3-3d6f9cf3b60b/cancel","fields":null}],"vaccounts":null}
